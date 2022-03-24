@@ -26,7 +26,7 @@ public class RandomCharacter {
     }
 
     public String getRandomCharacter(){
-        int randomOption = random.nextInt(0, 2);
+        int randomOption = random.nextInt(0, 3);
         switch (randomOption) {
             case 0:
                 return getRandomLowerCaseLetter();
